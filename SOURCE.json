@@ -1,0 +1,12 @@
+{
+  "source_project": "appgprj_6afe12b6dfd881918e335f5c23dfce9c",
+  "source_branch": "release/lxdin-commercial-2026-11-18",
+  "source_commit": "7b812ba50986c36db999a8e52fa48c62b61ad836",
+  "rollback_commit": "e669d849963b333c91128a04df1aa6461d39ac1e",
+  "rollback_tag_in_source": "rollback/lockedin-published-v1",
+  "sha256": {
+    "index.html": "7d276c49b122a929d26f9e457f71f9a06b556a35bae97f2523f74a932e853904",
+    "styles.css": "fc216a5a607e9f1aedcc245f589074614ff9aa0d26e9a4bbeae81620ea190d8e",
+    "demo/index.html": "3944142fe75379a8005f1bb9243dfb48c0ad0749cf0263dc4376b2755b82d3b7"
+  }
+}
