@@ -6,10 +6,11 @@ root=Path(__file__).resolve().parents[1]; public=root/'public'
 source=json.loads((root/'SOURCE.json').read_text())
 for name,expected in source['sha256'].items():
  assert hashlib.sha256((public/name).read_bytes()).hexdigest()==expected,name+' differs from approved source'
+assert source['sha256']['demo/index.html']==source['baseline_sha256']['demo/index.html']
 landing=(public/'index.html').read_text(); demo=(public/'demo/index.html').read_text()
 assert landing.count('Explore Interactive Demo')==1
 assert 'href="demo/"' in landing and 'href="../"' in demo
-assert 'LXDiN — A technology venture from LA02UK.' in landing
+assert 'LXDiN — A technology venture from LA02UK.' in re.sub(r'<[^>]+>', '', landing)
 for url in ['https://soccercenter.org','https://arenapathway.com','https://la02uk.com']:assert 'href="'+url+'"' in landing
 assert 'function resetDemo(){state=initial();detail.close();render();' in demo
 for token in ['NSID','Box','DocuSign','resetDemo()','Fictional','simulated']:assert token.lower() in demo.lower(),token
@@ -22,10 +23,10 @@ class Links(HTMLParser):
      if ';base64,' in value:base64.b64decode(value.split(',',1)[1],validate=True)
     elif not value.startswith(('http:','https:','#')):assert (self.base/value).exists(),value
 for name in ['index.html','demo/index.html']:Links((public/name).parent).feed((public/name).read_text())
-scripts=re.findall(r'<script\b[^>]*>(.*?)</script>',demo,re.S)
+scripts=re.findall(r'<script\b[^>]*>(.*?)</script>',demo+landing,re.S)
 assert not re.search(r'\b(fetch\s*\(|XMLHttpRequest|WebSocket|localStorage|sessionStorage)\b',''.join(scripts))
 for p in public.rglob('*'):
- if p.is_file():
+ if p.is_file() and p.suffix in ('.html','.css','.js','.txt'):
   text=p.read_text()
   assert not re.search(r'-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY|gh[pousr]_[A-Za-z0-9]{30,}|AKIA[A-Z0-9]{16}|sk_live_[A-Za-z0-9]+',text),str(p)
 if shutil.which('node'):

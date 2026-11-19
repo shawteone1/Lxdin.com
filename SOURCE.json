@@ -5,8 +5,14 @@
   "rollback_commit": "e669d849963b333c91128a04df1aa6461d39ac1e",
   "rollback_tag_in_source": "rollback/lockedin-published-v1",
   "sha256": {
+    "index.html": "17c9e69bf6b93d03dae37aaf69a0713ae28d62bc1b7b0cda1b60ff2743073931",
+    "styles.css": "08d63402a65214a68c5d1b421862563a21615a6984cb37c3d465689eee972f55",
+    "demo/index.html": "3944142fe75379a8005f1bb9243dfb48c0ad0749cf0263dc4376b2755b82d3b7"
+  },
+  "baseline_sha256": {
     "index.html": "7d276c49b122a929d26f9e457f71f9a06b556a35bae97f2523f74a932e853904",
     "styles.css": "fc216a5a607e9f1aedcc245f589074614ff9aa0d26e9a4bbeae81620ea190d8e",
     "demo/index.html": "3944142fe75379a8005f1bb9243dfb48c0ad0749cf0263dc4376b2755b82d3b7"
-  }
+  },
+  "design_reference": "LXDiN_PlayRcmd_Enterprise_Polish_Review_v1.zip"
 }

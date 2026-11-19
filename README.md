@@ -20,10 +20,14 @@ This export excludes the original Git history, .openai hosting identity, unrelat
 
 Current candidate: release/lxdin-commercial-2026-11-18. Reserve main for a future approved production release. Do not create or update main or connect automatic production deployment without approval. In an initially empty repository, GitHub may select the first pushed release branch as its default; default branch is not production approval. Explicitly select main as the future production branch in hosting controls.
 
-## Current readiness
+## Original packaging status (historical)
 
 GitHub creation was denied by the available integration (`Resource not accessible by integration (createRepository)`). No remote repository or push has been verified. See GITHUB-SETUP.md for the exact completion commands.
 
 Visual and browser interaction qualification is incomplete. The managed browser previously failed initialization with `the gaas-browser node_repl sandbox cannot be disabled`; no supported browser-control tool is available for this packaging turn. No server or browser workaround was attempted. No screenshots or runtime acceptance are claimed.
 
 See HOSTING.md for preview and future domain handoff. This package does not deploy or attach a domain.
+
+## Enterprise polish review v1
+
+The current review branch applies the approved enterprise design only to LXDiN. Product files now match the candidate hashes in SOURCE.json; baseline hashes remain recorded separately, and the demo checksum is unchanged. See [independent review and QA report](review/enterprise-polish-v1/QA.md). About Us, Mission and Contact sections are included; a direct contact channel and browser qualification remain outstanding. No deployment is authorized.
