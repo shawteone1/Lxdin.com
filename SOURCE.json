@@ -5,8 +5,8 @@
   "rollback_commit": "e669d849963b333c91128a04df1aa6461d39ac1e",
   "rollback_tag_in_source": "rollback/lockedin-published-v1",
   "sha256": {
-    "index.html": "d697c4b053085a35b6958d21d7df8162d19faee45c0f9384d802cac891b4f6f6",
-    "styles.css": "fb77b801d65b5981b783f398807bfbe904b8008fac1e5ad3d6df96ad5a63e896",
+    "index.html": "fda8a474d120aef60c234e4b35bfac6ab2c792e7fa2a519d90b2e891c29eeb2e",
+    "styles.css": "3d72afbc19aaffa10947a20b56fbd886455930dd39381f9821ced1b4c7ef7e95",
     "demo/index.html": "3944142fe75379a8005f1bb9243dfb48c0ad0749cf0263dc4376b2755b82d3b7",
     "brand/lxdin/icon-512.png": "f514d4676b999855ac58793bc27628a14570f9bf6bdcd64390e278e04ad509b6",
     "brand/lxdin/icon-64.png": "1c7c57ff2ceff7dd4325261320c67adf2a6e0a08368b09cd50d36b1e4a93dc30",

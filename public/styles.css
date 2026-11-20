@@ -6,7 +6,8 @@ body{font-size:16px}button,a{-webkit-tap-highlight-color:transparent}.nav nav,.b
 
 /* Approved logo integration: scoped sizing; original page design is unchanged. */
 .brand .approved-logo{display:block;width:216px;max-width:100%;height:auto;object-fit:contain;flex-shrink:0}
-.nav .brand{flex-shrink:0;max-width:calc(100% - 60px);padding-block:8px;line-height:0}
+.nav .brand{flex-shrink:0;max-width:calc(100% - 60px);padding-block:4px;line-height:0}
+.nav .brand .approved-logo{width:128px}
 .footer-grid .brand{display:inline-block;max-width:100%;line-height:0}
 @media(max-width:900px){.nav nav{top:100%}}
-@media(max-width:600px){.brand .approved-logo{width:176px}}
+@media(max-width:600px){.brand .approved-logo{width:176px}.nav .brand .approved-logo{width:112px}}
