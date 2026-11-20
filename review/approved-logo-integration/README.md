@@ -7,7 +7,7 @@ Base: approved enterprise-polish commit `7ba6ac709a03a7a28257ff4fc41c4acebb03813
 
 The founder attached the approved 1280×640 metallic silver/cyan LXD lock artwork. The exact JPEG is preserved at `brand/approved-lxdin/master.jpg`, SHA256 `d6b1b9646edcb396787cc895e718d174169e1533258aff83135480eea1b174cb`. No previous concept, tracing, regeneration, recoloring or alternate artwork is used.
 
-The full symbol, LXDiN wordmark and tagline are retained in a crop (208,20,1072,578) with its original navy/glow background. Optimized lossless WebP assets are exported at 432/864 pixels wide. Header/footer use the identical proportional image. Header width is 128px on desktop/iPad and 112px on phones, with 4px vertical padding. The proportional image makes the header approximately 91px tall on desktop (previously about 156px). Footer widths remain 216px desktop and 176px phone. Navigation typography is unchanged. Only scoped logo sizing, necessary header padding and dropdown positioning below the taller header are added. All original CSS remains intact before the appended branding rules. No transparent-background processing is attempted, preserving the metallic/glow appearance exactly.
+The full symbol, LXDiN wordmark and tagline are retained in a crop (208,20,1072,578) with its original navy/glow background. Optimized lossless WebP assets are exported at 432/864 pixels wide. Header/footer use the identical proportional image. Header width is 144px on desktop/iPad and 112px on phones, with a bounded flex parent and proportional HTML fallback. Footer widths remain 216px desktop and 176px phone. Navigation typography is unchanged. Only scoped logo sizing, necessary header padding and dropdown positioning below the taller header are added. All original CSS remains intact before the appended branding rules. No transparent-background processing is attempted, preserving the metallic/glow appearance exactly.
 
 Icons derive from the complete LXD/lock monogram crop (304,24,960,392), centered proportionally on a square canvas padded with navy sampled from the approved image. No letters are redrawn or clipped. PNG sizes 16/32/48/64/180/192/512 and ICO 16/32/48/64 are supplied. The smaller favicon versions should be reviewed at native size; fine keyhole/metallic detail naturally reduces at 16px.
 
@@ -42,3 +42,7 @@ If port 3000 already has a server, stop that process with Ctrl+C first. In Codes
 Review desktop, iPad landscape (1024×768), iPad portrait (768×1024) and phone (390×844): full logo visible/proportional, appropriate spacing, navigation opens below header, no overflow, footer readable, demo opens/resets/returns, fictional disclosures visible. Review the favicon at 16/32px. Use a hard refresh if the previous logo/favicon is cached.
 
 No production deployment, main/release merge, DNS, GoDaddy or other-product changes are included. Founder visual acceptance remains pending.
+
+## Computed header regression update
+
+See [header sizing diagnosis and real browser evidence](header-sizing/DIAGNOSIS.md). Seven sandboxed Chromium cases now pass, including both requested iPad landscape viewports and stale-brand-CSS fallback. Earlier browser-unavailable notes above are historical; native Safari/private Codespaces inspection remains unavailable. Run `python3 scripts/test_header_browser.py`.

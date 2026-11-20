@@ -1,0 +1,126 @@
+[
+  {
+    "image": {
+      "width": 128,
+      "height": 82.65625,
+      "left": 27,
+      "right": 155
+    },
+    "parent": {
+      "width": 128,
+      "height": 90.65625,
+      "left": 27,
+      "right": 155
+    },
+    "header": {
+      "width": 970,
+      "height": 91.65625,
+      "left": 27,
+      "right": 997
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 376.96875,
+      "right": 775.046875
+    },
+    "computedWidth": "128px",
+    "viewport": 1024,
+    "overflow": true,
+    "viewportWidth": 1024,
+    "staleBrandCSS": false
+  },
+  {
+    "image": {
+      "width": 864,
+      "height": 558,
+      "left": 27,
+      "right": 891
+    },
+    "parent": {
+      "width": 864,
+      "height": 558,
+      "left": 27,
+      "right": 891
+    },
+    "header": {
+      "width": 970,
+      "height": 559,
+      "left": 27,
+      "right": 997
+    },
+    "nav": {
+      "width": 275.984375,
+      "height": 54,
+      "left": 926,
+      "right": 1201.984375
+    },
+    "computedWidth": "864px",
+    "viewport": 1024,
+    "overflow": true,
+    "viewportWidth": 1024,
+    "staleBrandCSS": true
+  },
+  {
+    "image": {
+      "width": 128,
+      "height": 82.65625,
+      "left": 27,
+      "right": 155
+    },
+    "parent": {
+      "width": 128,
+      "height": 90.65625,
+      "left": 27,
+      "right": 155
+    },
+    "header": {
+      "width": 1126,
+      "height": 91.65625,
+      "left": 27,
+      "right": 1153
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 454.96875,
+      "right": 853.046875
+    },
+    "computedWidth": "128px",
+    "viewport": 1180,
+    "overflow": false,
+    "viewportWidth": 1180,
+    "staleBrandCSS": false
+  },
+  {
+    "image": {
+      "width": 864,
+      "height": 558,
+      "left": 27,
+      "right": 891
+    },
+    "parent": {
+      "width": 864,
+      "height": 558,
+      "left": 27,
+      "right": 891
+    },
+    "header": {
+      "width": 1126,
+      "height": 559,
+      "left": 27,
+      "right": 1153
+    },
+    "nav": {
+      "width": 275.984375,
+      "height": 54,
+      "left": 926,
+      "right": 1201.984375
+    },
+    "computedWidth": "864px",
+    "viewport": 1180,
+    "overflow": true,
+    "viewportWidth": 1180,
+    "staleBrandCSS": true
+  }
+]

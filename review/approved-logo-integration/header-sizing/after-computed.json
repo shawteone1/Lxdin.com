@@ -1,0 +1,583 @@
+[
+  {
+    "image": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 4,
+      "bottom": 97
+    },
+    "parent": {
+      "width": 144,
+      "height": 101,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 101
+    },
+    "header": {
+      "width": 970,
+      "height": 102,
+      "left": 27,
+      "right": 997,
+      "top": 0,
+      "bottom": 102
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 384.96875,
+      "right": 783.046875,
+      "top": 41.5,
+      "bottom": 59.5
+    },
+    "links": [
+      {
+        "width": 52.765625,
+        "height": 18,
+        "left": 384.96875,
+        "right": 437.734375,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 82.125,
+        "height": 18,
+        "left": 465.734375,
+        "right": 547.859375,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 126.40625,
+        "height": 18,
+        "left": 575.859375,
+        "right": 702.265625,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 52.78125,
+        "height": 18,
+        "left": 730.265625,
+        "right": 783.046875,
+        "top": 41.5,
+        "bottom": 59.5
+      }
+    ],
+    "computedImageWidth": "144px",
+    "computedParentWidth": "144px",
+    "navDisplay": "flex",
+    "headerScrollWidth": 970,
+    "headerClientWidth": 970,
+    "loaded": true,
+    "pageOverflow": true,
+    "device": "ipad-landscape",
+    "viewport": [
+      1024,
+      768
+    ],
+    "mode": "current",
+    "pageErrors": [],
+    "badResponses": []
+  },
+  {
+    "image": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 93
+    },
+    "parent": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 93
+    },
+    "header": {
+      "width": 970,
+      "height": 94,
+      "left": 27,
+      "right": 997,
+      "top": 0,
+      "bottom": 94
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 384.96875,
+      "right": 783.046875,
+      "top": 37.5,
+      "bottom": 55.5
+    },
+    "links": [
+      {
+        "width": 52.765625,
+        "height": 18,
+        "left": 384.96875,
+        "right": 437.734375,
+        "top": 37.5,
+        "bottom": 55.5
+      },
+      {
+        "width": 82.125,
+        "height": 18,
+        "left": 465.734375,
+        "right": 547.859375,
+        "top": 37.5,
+        "bottom": 55.5
+      },
+      {
+        "width": 126.40625,
+        "height": 18,
+        "left": 575.859375,
+        "right": 702.265625,
+        "top": 37.5,
+        "bottom": 55.5
+      },
+      {
+        "width": 52.78125,
+        "height": 18,
+        "left": 730.265625,
+        "right": 783.046875,
+        "top": 37.5,
+        "bottom": 55.5
+      }
+    ],
+    "computedImageWidth": "144px",
+    "computedParentWidth": "144px",
+    "navDisplay": "flex",
+    "headerScrollWidth": 970,
+    "headerClientWidth": 970,
+    "loaded": true,
+    "pageOverflow": true,
+    "device": "ipad-landscape",
+    "viewport": [
+      1024,
+      768
+    ],
+    "mode": "stale-brand-css",
+    "pageErrors": [],
+    "badResponses": []
+  },
+  {
+    "image": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 4,
+      "bottom": 97
+    },
+    "parent": {
+      "width": 144,
+      "height": 101,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 101
+    },
+    "header": {
+      "width": 1126,
+      "height": 102,
+      "left": 27,
+      "right": 1153,
+      "top": 0,
+      "bottom": 102
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 462.96875,
+      "right": 861.046875,
+      "top": 41.5,
+      "bottom": 59.5
+    },
+    "links": [
+      {
+        "width": 52.765625,
+        "height": 18,
+        "left": 462.96875,
+        "right": 515.734375,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 82.125,
+        "height": 18,
+        "left": 543.734375,
+        "right": 625.859375,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 126.40625,
+        "height": 18,
+        "left": 653.859375,
+        "right": 780.265625,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 52.78125,
+        "height": 18,
+        "left": 808.265625,
+        "right": 861.046875,
+        "top": 41.5,
+        "bottom": 59.5
+      }
+    ],
+    "computedImageWidth": "144px",
+    "computedParentWidth": "144px",
+    "navDisplay": "flex",
+    "headerScrollWidth": 1126,
+    "headerClientWidth": 1126,
+    "loaded": true,
+    "pageOverflow": false,
+    "device": "ipad-large-landscape",
+    "viewport": [
+      1180,
+      820
+    ],
+    "mode": "current",
+    "pageErrors": [],
+    "badResponses": []
+  },
+  {
+    "image": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 93
+    },
+    "parent": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 93
+    },
+    "header": {
+      "width": 1126,
+      "height": 94,
+      "left": 27,
+      "right": 1153,
+      "top": 0,
+      "bottom": 94
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 462.96875,
+      "right": 861.046875,
+      "top": 37.5,
+      "bottom": 55.5
+    },
+    "links": [
+      {
+        "width": 52.765625,
+        "height": 18,
+        "left": 462.96875,
+        "right": 515.734375,
+        "top": 37.5,
+        "bottom": 55.5
+      },
+      {
+        "width": 82.125,
+        "height": 18,
+        "left": 543.734375,
+        "right": 625.859375,
+        "top": 37.5,
+        "bottom": 55.5
+      },
+      {
+        "width": 126.40625,
+        "height": 18,
+        "left": 653.859375,
+        "right": 780.265625,
+        "top": 37.5,
+        "bottom": 55.5
+      },
+      {
+        "width": 52.78125,
+        "height": 18,
+        "left": 808.265625,
+        "right": 861.046875,
+        "top": 37.5,
+        "bottom": 55.5
+      }
+    ],
+    "computedImageWidth": "144px",
+    "computedParentWidth": "144px",
+    "navDisplay": "flex",
+    "headerScrollWidth": 1126,
+    "headerClientWidth": 1126,
+    "loaded": true,
+    "pageOverflow": false,
+    "device": "ipad-large-landscape",
+    "viewport": [
+      1180,
+      820
+    ],
+    "mode": "stale-brand-css",
+    "pageErrors": [],
+    "badResponses": []
+  },
+  {
+    "image": {
+      "width": 144,
+      "height": 93,
+      "left": 125,
+      "right": 269,
+      "top": 4,
+      "bottom": 97
+    },
+    "parent": {
+      "width": 144,
+      "height": 101,
+      "left": 125,
+      "right": 269,
+      "top": 0,
+      "bottom": 101
+    },
+    "header": {
+      "width": 1190,
+      "height": 102,
+      "left": 125,
+      "right": 1315,
+      "top": 0,
+      "bottom": 102
+    },
+    "nav": {
+      "width": 398.078125,
+      "height": 18,
+      "left": 592.96875,
+      "right": 991.046875,
+      "top": 41.5,
+      "bottom": 59.5
+    },
+    "links": [
+      {
+        "width": 52.765625,
+        "height": 18,
+        "left": 592.96875,
+        "right": 645.734375,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 82.125,
+        "height": 18,
+        "left": 673.734375,
+        "right": 755.859375,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 126.40625,
+        "height": 18,
+        "left": 783.859375,
+        "right": 910.265625,
+        "top": 41.5,
+        "bottom": 59.5
+      },
+      {
+        "width": 52.78125,
+        "height": 18,
+        "left": 938.265625,
+        "right": 991.046875,
+        "top": 41.5,
+        "bottom": 59.5
+      }
+    ],
+    "computedImageWidth": "144px",
+    "computedParentWidth": "144px",
+    "navDisplay": "flex",
+    "headerScrollWidth": 1190,
+    "headerClientWidth": 1190,
+    "loaded": true,
+    "pageOverflow": false,
+    "device": "desktop",
+    "viewport": [
+      1440,
+      1000
+    ],
+    "mode": "current",
+    "pageErrors": [],
+    "badResponses": []
+  },
+  {
+    "image": {
+      "width": 144,
+      "height": 93,
+      "left": 27,
+      "right": 171,
+      "top": 4,
+      "bottom": 97
+    },
+    "parent": {
+      "width": 144,
+      "height": 101,
+      "left": 27,
+      "right": 171,
+      "top": 0,
+      "bottom": 101
+    },
+    "header": {
+      "width": 714,
+      "height": 102,
+      "left": 27,
+      "right": 741,
+      "top": 0,
+      "bottom": 102
+    },
+    "nav": {
+      "width": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "links": [
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      }
+    ],
+    "computedImageWidth": "144px",
+    "computedParentWidth": "144px",
+    "navDisplay": "none",
+    "headerScrollWidth": 714,
+    "headerClientWidth": 714,
+    "loaded": true,
+    "pageOverflow": false,
+    "device": "ipad-portrait",
+    "viewport": [
+      768,
+      1024
+    ],
+    "mode": "current",
+    "pageErrors": [],
+    "badResponses": []
+  },
+  {
+    "image": {
+      "width": 112,
+      "height": 72.328125,
+      "left": 18,
+      "right": 130,
+      "top": 4,
+      "bottom": 76.328125
+    },
+    "parent": {
+      "width": 112,
+      "height": 80.328125,
+      "left": 18,
+      "right": 130,
+      "top": 0,
+      "bottom": 80.328125
+    },
+    "header": {
+      "width": 354,
+      "height": 81.328125,
+      "left": 18,
+      "right": 372,
+      "top": 0,
+      "bottom": 81.328125
+    },
+    "nav": {
+      "width": 0,
+      "height": 0,
+      "left": 0,
+      "right": 0,
+      "top": 0,
+      "bottom": 0
+    },
+    "links": [
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      },
+      {
+        "width": 0,
+        "height": 0,
+        "left": 0,
+        "right": 0,
+        "top": 0,
+        "bottom": 0
+      }
+    ],
+    "computedImageWidth": "112px",
+    "computedParentWidth": "112px",
+    "navDisplay": "none",
+    "headerScrollWidth": 354,
+    "headerClientWidth": 354,
+    "loaded": true,
+    "pageOverflow": false,
+    "device": "phone",
+    "viewport": [
+      390,
+      844
+    ],
+    "mode": "current",
+    "pageErrors": [],
+    "badResponses": []
+  }
+]

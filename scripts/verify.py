@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 import base64,hashlib,json,re,subprocess,shutil,tempfile
+from urllib.parse import urlsplit
 root=Path(__file__).resolve().parents[1]; public=root/'public'
 source=json.loads((root/'SOURCE.json').read_text())
 for name,expected in source['sha256'].items():
@@ -21,7 +22,7 @@ class Links(HTMLParser):
    if key in ('src','href') and value:
     if value.startswith('data:'):
      if ';base64,' in value:base64.b64decode(value.split(',',1)[1],validate=True)
-    elif not value.startswith(('http:','https:','#')):assert (self.base/value).exists(),value
+    elif not value.startswith(('http:','https:','#')):assert (self.base/urlsplit(value).path).exists(),value
 for name in ['index.html','demo/index.html']:Links((public/name).parent).feed((public/name).read_text())
 scripts=re.findall(r'<script\b[^>]*>(.*?)</script>',demo+landing,re.S)
 assert not re.search(r'\b(fetch\s*\(|XMLHttpRequest|WebSocket|localStorage|sessionStorage)\b',''.join(scripts))
