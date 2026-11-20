@@ -3,3 +3,10 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
 /* Review refinements: readable controls and responsive artwork. */
 body{font-size:16px}button,a{-webkit-tap-highlight-color:transparent}.nav nav,.btn{font-size:14px}.eyebrow,.proof,.strip-inner,.disclaimer{font-size:12px}.brand small{font-size:10px}.console small,.steps small,.console-top,.data>span,.state,.floating{font-size:12px}.section p,.three p,.mission p,.contact p{font-size:16px}.footer-grid small{font-size:13px}.nav{position:relative;z-index:10}.art{min-width:0}.hero-copy{min-width:0}.console{max-width:100%}.nav-actions{flex-shrink:0}.hero .art{background:radial-gradient(ellipse at center,#1451aa33,transparent 68%)}:focus-visible{outline:3px solid #8ddaff;outline-offset:5px}#navmenu{min-height:44px;min-width:44px}.footer-grid a{padding-block:5px}.actions .btn-sub{font-weight:500}@media(max-width:600px){.hero{overflow:hidden}.console-body{padding:18px}.console-header{gap:9px}.console-header strong{font-size:14px}.state{font-size:10px}.data strong,.data em{font-size:12px}.floating{font-size:11px}.f1{left:0}.f2{right:0}.brand small{font-size:9px}.btn{min-height:48px}.nav nav a{padding:12px}.contact-actions{min-width:0}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+
+/* Approved logo integration: scoped sizing; original page design is unchanged. */
+.brand .approved-logo{display:block;width:216px;max-width:100%;height:auto;object-fit:contain;flex-shrink:0}
+.nav .brand{flex-shrink:0;max-width:calc(100% - 60px);padding-block:8px;line-height:0}
+.footer-grid .brand{display:inline-block;max-width:100%;line-height:0}
+@media(max-width:900px){.nav nav{top:100%}}
+@media(max-width:600px){.brand .approved-logo{width:176px}}

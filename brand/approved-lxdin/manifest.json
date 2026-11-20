@@ -1,0 +1,115 @@
+{
+  "master": "brand/approved-lxdin/master.jpg",
+  "master_sha256": "d6b1b9646edcb396787cc895e718d174169e1533258aff83135480eea1b174cb",
+  "dimensions": [
+    1280,
+    640
+  ],
+  "header_crop": [
+    208,
+    20,
+    1072,
+    578
+  ],
+  "icon_monogram_crop": [
+    304,
+    24,
+    960,
+    392
+  ],
+  "icon_canvas": {
+    "size": [
+      656,
+      656
+    ],
+    "paste": [
+      0,
+      144
+    ],
+    "background_rgb": [
+      1,
+      11,
+      38
+    ]
+  },
+  "processing": "Original background preserved. Crops, proportional Lanczos resize and sampled navy icon padding only. No transparency, tracing, regeneration or recoloring.",
+  "exports": {
+    "public/brand/lxdin/favicon.ico": {
+      "sha256": "879e698361b90e7e2a53c4e2685ec531e2d42acaaa8a9f220f25672386a0355d",
+      "size": [
+        64,
+        64
+      ]
+    },
+    "public/brand/lxdin/header-432.webp": {
+      "sha256": "b6692a93fcb291ca102e3e143721ce6a8920c0e32d98d6aa81c212b9d1e49c41",
+      "size": [
+        432,
+        279
+      ]
+    },
+    "public/brand/lxdin/header-864.webp": {
+      "sha256": "9ea66a650de00c888601dab6b48d190c0e8f453d13e8b3b3d6538123f3acee50",
+      "size": [
+        864,
+        558
+      ]
+    },
+    "public/brand/lxdin/header-original-crop.png": {
+      "sha256": "3d80fb855fb055e8dba80b2f32bbda781d74653f4595118018cdd4fc9db37af8",
+      "size": [
+        864,
+        558
+      ]
+    },
+    "public/brand/lxdin/icon-16.png": {
+      "sha256": "6d4bc89715be8122175994f2bbe495d264f7d811069931fc4b140d04fcfd0f57",
+      "size": [
+        16,
+        16
+      ]
+    },
+    "public/brand/lxdin/icon-180.png": {
+      "sha256": "8994dc9137e866539186fac5daf7a732c52c362a80215db25e44b84d246344cd",
+      "size": [
+        180,
+        180
+      ]
+    },
+    "public/brand/lxdin/icon-192.png": {
+      "sha256": "f19d57a122cd8f8c2e2c592e651ed9c0e802660bdb58a441b046848b657911dd",
+      "size": [
+        192,
+        192
+      ]
+    },
+    "public/brand/lxdin/icon-32.png": {
+      "sha256": "e5bf073e84c4553e8c210bb53d1cd51766a49e03c35b06eb48fe890fae77339a",
+      "size": [
+        32,
+        32
+      ]
+    },
+    "public/brand/lxdin/icon-48.png": {
+      "sha256": "ed0925110b4f475d4fe69bf1f094456330294434ce96cd558340c0c1b9bec9fa",
+      "size": [
+        48,
+        48
+      ]
+    },
+    "public/brand/lxdin/icon-512.png": {
+      "sha256": "f514d4676b999855ac58793bc27628a14570f9bf6bdcd64390e278e04ad509b6",
+      "size": [
+        512,
+        512
+      ]
+    },
+    "public/brand/lxdin/icon-64.png": {
+      "sha256": "1c7c57ff2ceff7dd4325261320c67adf2a6e0a08368b09cd50d36b1e4a93dc30",
+      "size": [
+        64,
+        64
+      ]
+    }
+  }
+}
