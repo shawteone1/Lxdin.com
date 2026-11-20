@@ -6,7 +6,7 @@
   "rollback_tag_in_source": "rollback/lockedin-published-v1",
   "sha256": {
     "index.html": "17c9e69bf6b93d03dae37aaf69a0713ae28d62bc1b7b0cda1b60ff2743073931",
-    "styles.css": "08d63402a65214a68c5d1b421862563a21615a6984cb37c3d465689eee972f55",
+    "styles.css": "aed1a0cb004e9b3701764c29bbd6bc0fba9d8560fa9e139fab718459f697c700",
     "demo/index.html": "3944142fe75379a8005f1bb9243dfb48c0ad0749cf0263dc4376b2755b82d3b7"
   },
   "baseline_sha256": {
